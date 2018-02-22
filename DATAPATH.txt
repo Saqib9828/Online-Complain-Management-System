@@ -1,0 +1,3 @@
+Data Source=.\SQLEXPRESS;
+AttachDbFilename="C:\Users\MOHD SAKIB\Desktop\OCMS\OCMS\App_Data\OCMS.mdf";
+Integrated Security=True;Connect Timeout=30;User Instance=True
