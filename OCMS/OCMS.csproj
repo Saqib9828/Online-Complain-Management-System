@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{65DB3F56-3975-4082-AEED-07C96239CD72}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OCMS</RootNamespace>
+    <AssemblyName>OCMS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PhoneNumbers">
+      <HintPath>..\packages\libphonenumber-csharp.4.4.0.1\lib\PhoneNumbers.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\packages\RestSharp.105.0.1\lib\net4-client\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Twilio.Activities">
+      <HintPath>..\packages\Twilio.Activities.0.0.12.0\lib\net40\Twilio.Activities.dll</HintPath>
+    </Reference>
+    <Reference Include="Twilio.Api">
+      <HintPath>..\packages\Twilio.3.6.25\lib\3.5\Twilio.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Twilio.Twiml">
+      <HintPath>..\packages\Twilio.TwiML.3.3.6\lib\3.5\Twilio.Twiml.dll</HintPath>
+    </Reference>
+    <Reference Include="TwilioFluent.TwiML">
+      <HintPath>..\packages\TwilioFluent.TwiML.1.0.1.0\lib\net40-Client\TwilioFluent.TwiML.dll</HintPath>
+    </Reference>
+    <Reference Include="TwilioSharp">
+      <HintPath>..\packages\TwilioSharpCore.1.0\lib\TwilioSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="TwilioSharp.MVC3">
+      <HintPath>..\packages\TwilioSharpMVC.1.0\lib\TwilioSharp.MVC3.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="adminlog.aspx" />
+    <Content Include="Admin\Admin.aspx" />
+    <Content Include="Admin\list_miss.aspx" />
+    <Content Include="Admin\regcriminal.aspx" />
+    <Content Include="Admin\regpolice.aspx" />
+    <Content Include="Admin\Viewcri.aspx" />
+    <Content Include="Admin\Viewfirr.aspx" />
+    <Content Include="Admin\Viewmiss.aspx" />
+    <Content Include="App_Data\OCMS.mdf" />
+    <Content Include="App_Data\OCMS_log.LDF">
+      <DependentUpon>OCMS.mdf</DependentUpon>
+    </Content>
+    <Content Include="complain.aspx" />
+    <Content Include="FEEDBACK.aspx" />
+    <Content Include="Police\addfir.aspx" />
+    <Content Include="Police\MIS_PRSN.aspx" />
+    <Content Include="Police\Police.aspx" />
+    <Content Include="Police\regcrim.aspx" />
+    <Content Include="Police\regmisper.aspx" />
+    <Content Include="Police\viewcomplain.aspx" />
+    <Content Include="Police\Viewcriminal.aspx" />
+    <Content Include="Police\viewfeedback.aspx" />
+    <Content Include="Police\viewfir.aspx" />
+    <Content Include="Admin\viewpolice.aspx" />
+    <Content Include="Police\Viewrmp.aspx" />
+    <Content Include="Public\rmp.aspx" />
+    <Content Include="Public\sms.aspx" />
+    <Content Include="slider_img\1.jpg" />
+    <Content Include="slider_img\2.jpg" />
+    <Content Include="slider_img\3.jpg" />
+    <Content Include="slider_img\4.jpg" />
+    <Content Include="slider_img\5.jpg" />
+    <Content Include="slider_img\6.jpg" />
+    <Content Include="slider_img\7.jpg" />
+    <Content Include="slider_img\8.jpg" />
+    <Content Include="Styles\complaints.jpg" />
+    <Content Include="Styles\Grey-website-background.png" />
+    <Content Include="Styles\js-image-slider.css" />
+    <Content Include="Styles\js-image-slider.js" />
+    <Content Include="Styles\login_icon.png" />
+    <Content Include="Styles\off.jpg" />
+    <Content Include="Styles\on.jpg" />
+    <Content Include="Styles\Police-Officer-icon.png" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\title.gif" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminlog.aspx.cs">
+      <DependentUpon>adminlog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminlog.aspx.designer.cs">
+      <DependentUpon>adminlog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\list_miss.aspx.cs">
+      <DependentUpon>list_miss.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\list_miss.aspx.designer.cs">
+      <DependentUpon>list_miss.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\regcriminal.aspx.cs">
+      <DependentUpon>regcriminal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\regcriminal.aspx.designer.cs">
+      <DependentUpon>regcriminal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\regpolice.aspx.cs">
+      <DependentUpon>regpolice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\regpolice.aspx.designer.cs">
+      <DependentUpon>regpolice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Viewcri.aspx.cs">
+      <DependentUpon>Viewcri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Viewcri.aspx.designer.cs">
+      <DependentUpon>Viewcri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Viewfirr.aspx.cs">
+      <DependentUpon>Viewfirr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Viewfirr.aspx.designer.cs">
+      <DependentUpon>Viewfirr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Viewmiss.aspx.cs">
+      <DependentUpon>Viewmiss.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Viewmiss.aspx.designer.cs">
+      <DependentUpon>Viewmiss.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="complain.aspx.cs">
+      <DependentUpon>complain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="complain.aspx.designer.cs">
+      <DependentUpon>complain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FEEDBACK.aspx.cs">
+      <DependentUpon>FEEDBACK.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FEEDBACK.aspx.designer.cs">
+      <DependentUpon>FEEDBACK.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Police\addfir.aspx.cs">
+      <DependentUpon>addfir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Police\addfir.aspx.designer.cs">
+      <DependentUpon>addfir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Police\MIS_PRSN.aspx.cs">
+      <DependentUpon>MIS_PRSN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Police\MIS_PRSN.aspx.designer.cs">
+      <DependentUpon>MIS_PRSN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Police\Police.Master.cs">
+      <DependentUpon>Police.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Police\Police.Master.designer.cs">
+      <DependentUpon>Police.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Police\Police.aspx.cs">
+      <DependentUpon>Police.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Police\Police.aspx.designer.cs">
+      <DependentUpon>Police.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Police\regcrim.aspx.cs">
+      <DependentUpon>regcrim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Police\regcrim.aspx.designer.cs">
+      <DependentUpon>regcrim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Police\regmisper.aspx.cs">
+      <DependentUpon>regmisper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Police\regmisper.aspx.designer.cs">
+      <DependentUpon>regmisper.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Police\viewcomplain.aspx.cs">
+      <DependentUpon>viewcomplain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Police\viewcomplain.aspx.designer.cs">
+      <DependentUpon>viewcomplain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Police\Viewcriminal.aspx.cs">
+      <DependentUpon>Viewcriminal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Police\Viewcriminal.aspx.designer.cs">
+      <DependentUpon>Viewcriminal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Police\viewfeedback.aspx.cs">
+      <DependentUpon>viewfeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Police\viewfeedback.aspx.designer.cs">
+      <DependentUpon>viewfeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Police\viewfir.aspx.cs">
+      <DependentUpon>viewfir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Police\viewfir.aspx.designer.cs">
+      <DependentUpon>viewfir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\viewpolice.aspx.cs">
+      <DependentUpon>viewpolice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\viewpolice.aspx.designer.cs">
+      <DependentUpon>viewpolice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Police\Viewrmp.aspx.cs">
+      <DependentUpon>Viewrmp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Police\Viewrmp.aspx.designer.cs">
+      <DependentUpon>Viewrmp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Public\rmp.aspx.cs">
+      <DependentUpon>rmp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\rmp.aspx.designer.cs">
+      <DependentUpon>rmp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\sms.aspx.cs">
+      <DependentUpon>sms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\sms.aspx.designer.cs">
+      <DependentUpon>sms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Admin.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Police\Police.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Public\missperson\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>30303</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
