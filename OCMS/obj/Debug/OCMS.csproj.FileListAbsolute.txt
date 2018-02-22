@@ -1,0 +1,52 @@
+C:\Users\MOHD SAQIB\Desktop\OCMS\OCMS\bin\OCMS.dll
+C:\Users\MOHD SAQIB\Desktop\OCMS\OCMS\bin\OCMS.pdb
+C:\Users\MOHD SAQIB\Desktop\OCMS\OCMS\obj\Debug\OCMS.dll
+C:\Users\MOHD SAQIB\Desktop\OCMS\OCMS\obj\Debug\OCMS.pdb
+C:\Users\Sakib\Desktop\OCMS\OCMS\bin\OCMS.dll
+C:\Users\Sakib\Desktop\OCMS\OCMS\bin\OCMS.pdb
+C:\Users\Sakib\Desktop\OCMS\OCMS\obj\Debug\OCMS.dll
+C:\Users\Sakib\Desktop\OCMS\OCMS\obj\Debug\OCMS.pdb
+E:\OCMS\OCMS\bin\OCMS.dll
+E:\OCMS\OCMS\bin\OCMS.pdb
+E:\OCMS\OCMS\obj\Debug\OCMS.dll
+E:\OCMS\OCMS\obj\Debug\OCMS.pdb
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\OCMS.dll
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\OCMS.pdb
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\obj\Debug\OCMS.dll
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\obj\Debug\OCMS.pdb
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\obj\Debug\OCMS.csprojResolveAssemblyReference.cache
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\PhoneNumbers.dll
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\RestSharp.dll
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\Twilio.Api.dll
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\Twilio.Twiml.dll
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\TwilioFluent.TwiML.dll
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\TwilioSharp.dll
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\TwilioSharp.MVC3.dll
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\RestSharp.xml
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\Twilio.Api.pdb
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\Twilio.Api.xml
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\Twilio.Twiml.pdb
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\Twilio.Twiml.xml
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\TwilioFluent.TwiML.xml
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\TwilioSharp.pdb
+C:\Users\MOHD SAQIB\Desktop\sakib\OCMS\OCMS\bin\TwilioSharp.MVC3.pdb
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\OCMS.dll
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\OCMS.pdb
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\PhoneNumbers.dll
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\RestSharp.dll
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\Twilio.Api.dll
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\Twilio.Twiml.dll
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\TwilioFluent.TwiML.dll
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\TwilioSharp.dll
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\TwilioSharp.MVC3.dll
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\RestSharp.xml
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\Twilio.Api.pdb
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\Twilio.Api.xml
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\Twilio.Twiml.pdb
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\Twilio.Twiml.xml
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\TwilioFluent.TwiML.xml
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\TwilioSharp.pdb
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\bin\TwilioSharp.MVC3.pdb
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\obj\Debug\OCMS.csprojResolveAssemblyReference.cache
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\obj\Debug\OCMS.dll
+D:\class\3rd year\Projects\sakib\OCMS\OCMS\obj\Debug\OCMS.pdb
